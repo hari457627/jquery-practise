@@ -1,0 +1,84 @@
+.btn:focus{
+    outline: none !important;
+}
+
+input{
+    color: #ccc;
+}
+
+.input-group-addon{
+    text-align: center !important;
+}
+
+.btn-primary {
+    height: 25px;
+    width: 84px;
+    font-size: 14px;
+    border-radius: 36px;
+    padding: 0px 10px;
+    background-color: rgb(251,76,76);
+    border: none;
+    margin-top: 8px;
+}
+
+.btn-primary:hover {  
+    background-color: rgb(251,76,76);
+}
+
+.btn-primary:focus {  
+    background-color: rgb(251,76,76);
+    color: #fff;
+}
+
+.btn-secondary{
+    height: 30px;
+    width: 110px;
+    border-radius: 36px;
+    font-size: 16px;
+    padding: 0px 10px;
+    background-color: rgb(68,68,68);
+    border: none;
+    color: #fff;
+}
+
+.btn-secondary:hover {  
+    background-color: rgb(68,68,68);
+    color: #fff;
+}
+
+.btn-secondary:focus {  
+    background-color: rgb(68,68,68);
+    color: #fff;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.input-group .form-control{
+    float: none;
+}
+
+select{
+    border: none !important;
+    border-color: #fff !important;
+}
+
+.form-group{
+    margin-bottom: 0px !important;
+}
+
+.form-control{
+    -webkit-box-shadow:none !important;
+}
+
+.input-group-addon{
+    padding: 0 !important;
+    text-align: left;
+}
+
+input{
+    border: none !important;
+    text-decoration: underline;
+}
+

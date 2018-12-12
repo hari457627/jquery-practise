@@ -1,0 +1,253 @@
+{
+  "data":[
+    {
+      "name":"hari",
+      "age":"24",
+      "gmail":"hshankar043@gmail.com",
+      "mobile":"9492298412"
+    },
+    {
+      "name":"shankar",
+      "age":"24",
+      "gmail":"harishankar4557627@gmail.com",
+      "mobile":"9492298413"
+    },
+    {
+      "name":"hareram",
+      "age":"24",
+      "gmail":"hareram412419@gmail.com",
+      "mobile":"9676290419"
+    },
+    {
+      "name":"bestie",
+      "age":"24",
+      "gmail":"ram@gmail.com",
+      "mobile":"9848022338"
+    }
+  ],
+  "list":["list-1","list-2","list-3","list-4","list-5","list-6"]
+}
+
+.logo{
+  height: 28px;margin-top: 15px;
+}
+
+.care-logo{
+  width: inherit;background-size: cover;
+}
+
+.tabbable-panel {
+  padding-top: 10px;
+}
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #27E4c4;
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+/* Below tabs mode */
+
+.tabbable-line.tabs-below > .nav-tabs > li {
+  border-top: 4px solid transparent;
+}
+.tabbable-line.tabs-below > .nav-tabs > li > a {
+  margin-top: 0;
+}
+.tabbable-line.tabs-below > .nav-tabs > li:hover {
+  border-bottom: 0;
+  border-top: 4px solid #fbcdcf;
+}
+.tabbable-line.tabs-below > .nav-tabs > li.active {
+  margin-bottom: -2px;
+  border-bottom: 0;
+  border-top: 4px solid #f3565d;
+}
+.tabbable-line.tabs-below > .tab-content {
+  margin-top: -10px;
+  border-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+.upgradeButton {
+  border-radius: 36px;
+  padding: 0px 10px;
+  margin-top: 10px;
+  background-color: rgb(251,76,76);
+  border: none;
+}
+
+.caregivers-content{
+  margin-bottom: 19px;  
+}
+
+.caregivers-content .upgradeButton{
+  margin-top: 21px;
+  background-color: rgb(68,68,68);
+  border: none;
+  color: #fff;
+}
+
+.nav-tabs>li {
+  float: left;
+  margin-bottom: -1px;
+  padding-left: 5px;
+}
+
+.logout{
+  height: 40px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.logout-image{
+  height: 30px;
+  width: 30px;
+}
+
+.search-part{
+  margin-top: 15px;
+}
+
+.caregivers{
+  height: auto;
+  background-color: gainsboro;
+  
+}
+
+.input-group{
+  width: 100%;
+}
+
+.input-group .form-control{
+  float: none !important;
+}
+
+.search-panel{
+  width: 75% !important;
+}
+
+.search-panel .dropdown-toggle{
+  color: #888888;
+  width: 100%;
+  text-align: left;
+}
+
+.search_concept{
+  color: #888888;
+}
+
+.near-box{
+  width: 70px !important;
+  border: none;
+  text-decoration: underline;
+}
+
+.within-button{
+  margin-left: -25px;
+  opacity: 1;
+}
+
+label{
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.form-group .dropdown-toggle{
+  border: none;
+}
+
+svg.svg-inline--fa.fa-search.fa-w-16{
+  height: 20px !important;
+}
+
+
+.search-panel .dropdown-toggle{
+  color: #888888;
+}
+
+.search_concept{
+  color: #888888;
+}
+
+.form-group .form-control{
+  text-decoration: underline;
+  width: 100%; 
+}
+
+
+.form-group label {
+  
+  text-align: left;
+  font-weight: normal;
+}
+
+.form-group select {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

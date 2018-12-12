@@ -1,0 +1,255 @@
+.logo{
+    height: 28px;margin-top: 15px;
+}
+
+.care-logo{
+    width: inherit;background-size: cover;
+}
+
+/* Default mode */
+.tabbable-panel{
+    margin-top: 12px;
+}
+
+.tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+    min-height: 40px;
+}
+.tabbable-line > .nav-tabs > li {
+    margin-right: 2px;
+    height: 40px;
+}
+.tabbable-line > .nav-tabs > li > a {
+    border: 0;
+    margin-right: 0;
+    font-size: 12px;;
+    color: #737373;
+}
+
+.tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid #27E4c4;
+    position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+    border: 0;
+    color: #333333;
+}
+
+.nav-links{
+    margin-right: 25px !important;
+}
+
+
+
+/* Below tabs mode */
+
+.tabbable-line.tabs-below > .nav-tabs > li {
+    border-top: 4px solid transparent;
+}
+.tabbable-line.tabs-below > .nav-tabs > li > a {
+    margin-top: 0;
+}
+
+.nav-tabs > li > a:hover {
+    text-decoration: none !important;
+}
+
+
+.tabbable-line.tabs-below > .nav-tabs > li:hover {
+    border-bottom: 0;
+    border-top: 4px solid #fbcdcf;
+}
+.tabbable-line.tabs-below > .nav-tabs > li.active {
+    margin-bottom: -2px;
+    border-bottom: 0;
+    border-top: 4px solid #f3565d;
+}
+.tabbable-line.tabs-below > .tab-content {
+    margin-top: -10px;
+    border-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+.upgradeButton {
+    border-radius: 36px;
+    padding: 0px 10px;
+    background-color: rgb(251,76,76);
+    border: none;
+}
+
+.caregivers-content{
+    margin-bottom: 19px;  
+}
+
+.caregivers-content .upgradeButton{
+    margin-top: 21px;
+    background-color: rgb(68,68,68);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.logout{
+    margin-top: -7px;
+}
+
+.logout-image{
+    height: 30px;
+    width: 30px;
+  }
+  
+  .search-part{
+    margin-top: 15px;
+    margin-left: -20px;
+  }
+  
+  .caregivers{
+    height: auto;
+    background-color: gainsboro;
+    
+  }
+  
+  .form-inline .input-group{
+    width: 100%;
+  }
+  
+  
+  .search-panel{
+    width: 75% !important;
+    border: 1px solid gainsboro;
+  }
+  
+  .search-panel select{
+    color: #888888;
+    text-align: left;
+    border: 1px solid red;
+  }
+  
+  .search_concept{
+    color: #888888;
+  }
+  
+  .near-box{
+    width: 70px !important;
+    border: none;
+    text-decoration: underline;
+  }
+  
+  .within-button{
+    margin-left: -25px;
+    opacity: 1;
+  }
+  
+  label{
+    font-weight: normal;
+  }
+  
+  .form-group .dropdown-toggle{
+    border: none;
+  }
+  
+  svg.svg-inline--fa.fa-search.fa-w-16{
+    height: 20px !important;
+  }
+  
+  
+  .search-panel .dropdown-toggle{
+    color: #888888;
+  }
+  
+  .search_concept{
+    color: #888888;
+  }
+  
+  .form-group .form-control{
+    text-decoration: underline;
+    width: 100%; 
+  }
+  
+  
+  .form-group label {
+    
+    text-align: left;
+    font-weight: normal;
+  }
+  
+  .form-group select {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+
+  #sel1{
+      width: 100% !important;
+  }
+
+  .btn-secondary{
+    border-color: white;
+    background-color: white;
+  }
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0 white;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.within-box {
+    
+    color: #888888;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #fff;
+    margin-left: -5px;
+    border: none;
+     border-radius: none;
+}
+
+.distance-select{
+    background-color: #fff !important;
+    border:1px #fff;
+    background: none;
+    text-decoration:underline;
+    margin-left: -11px;
+}
+
+.search-icon{
+    height:38px;width:35px;background-color:rgb(233,236,239);
+}
+
+.input-group-text{
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .input-group-append {
+        margin-left: 16px !important;
+        margin-bottom: 15px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+

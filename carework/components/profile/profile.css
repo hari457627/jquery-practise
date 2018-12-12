@@ -1,0 +1,66 @@
+.banner{
+ min-width: 750px;
+ height: 40px;
+ margin: auto;
+ display: table;
+ background-color: rgb(216, 216, 216);
+}
+
+.upgradeBox{
+    min-height: 57px;
+    
+    margin: 30px auto;
+    display: table;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 7px;
+    font-size: 14px;
+    color: #444444;
+}
+
+.upgradeBox .btn-primary{
+    margin-top: 0;
+}
+
+.profile-checks{
+    
+    width: inherit;
+    vertical-align: middle;display:table-cell;text-align:center;
+   
+}
+
+.profile-links:not(:first-child){
+    margin-left: 20px;
+}
+
+
+.list-image{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .banner{
+        min-width: 150px;
+        
+       }
+
+       .upgradeBox{
+        
+        min-width: 330px;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    /* For ipad pro: */
+    .banner{
+        min-width: 350px;
+        
+       }
+       
+    
+}

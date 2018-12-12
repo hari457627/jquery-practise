@@ -1,0 +1,230 @@
+<html>
+<title>sample</title>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet/less" type="text/css" href="styles.less" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.0.0/less.min.js" ></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// $("#blue-element").click(function(){
+			// 	$(this).css('color','blue');
+			// })
+
+			// $('#make-me-blue').css('color','blue');
+			// $('section:first div:last').css('color','blue');
+			// $('section:last p:first > span').css('color','blue');
+			// $('span i:nth-child(2)').css('color','blue');
+			// $('div > div').css('color','blue');
+			// var indnum = $('div').length;
+			// console.log(indnum);
+			// for(var i=0;i<indnum;i++){
+			// 	$('div').each(function(index){
+			// 	var num = $(this).text();
+			// 	num = parseInt(num);
+			// 		if(num === i+1){
+			// 			$(this).css('color','blue');	
+			// 		}
+			// 		else{
+			// 			console.log('not matched');
+			// 		}
+			// 	})
+			// }
+
+			$('div').each(function(){
+				$(this).attr('data-ssid',$(this).text());
+			});
+
+			$('.clist div').sort(function(a,b){
+			   return a.dataset.ssid > b.dataset.ssid
+			}).appendTo('.clist');
+
+			$('li').click(function(){
+				$(this).toggleClass('newclass');
+			})
+
+			$('h2').hover(function(){
+				$('h2').css('color','green');
+			}, function(){
+				$('h2').css('color','black');
+			})
+
+            $.ajax({
+                type: "GET",
+                url: "test_data.json",
+                success: function(result)
+                {
+                    for(var i=0;i<result.list.length;i++){
+						console.log(result.list[i]);
+                        $("<div/>").addClass('col-md-2').text(result.list[i]).appendTo('.mydiv');
+					}
+                },
+				error: function(error){
+                    console.log(error);
+				}
+			});
+
+			$('#submit').click(function(){
+				console.log($('#testinput').val());
+				alert($('#testinput').val());
+			})
+			
+			// $( 'form' ).submit( function(){
+			// var data = $('form').serialize();
+			
+			// alert($('form').serialize());
+			// console.log(mydata);
+			// 		// $.ajax( {
+			// 		// processData: false,
+			// 		// contentType: false,
+
+			// 		// data: data,
+			// 		// dataType: 'json',
+			// 		// type: $( this ).attr( 'method' ),
+			// 		// url: 'yourapi.php',
+			// 		// success: function( feedback ){
+			// 		// 	console.log( "the feedback from your API: " + feedback );
+			// 		// 	}
+			// 		// })
+			// 	});
+	});
+	</script>
+	<style>
+		.newclass {
+			background-color: red;
+		}
+
+		.mydiv {
+			margin: 0 auto;
+			height: 200px;
+			border: 1px solid black;
+		}
+	</style>
+</head>
+
+	<!-- 
+	selectors
+		+  means followed by  eg: $('p + a') means p tag followed by anchor tag
+		> means inside  eg:$(p > a) means all anchor tags inside p tag
+		[] means attribute containing   eg: $('li[name]') represents li element with name attribute
+		eg: $('input[type='text']#id') represents input tags with id
+		eg: $('a[href*='google']') represents the anchor tags with href links containing google
+		eg: $('a[href^='google']') represents the anchor tags with href links preceeded with word google
+		eg: $('a[href$='google']') represents the anchor tags with href links ends with word google
+		eg: $('li:not(:contains(and))') represents the anchor tags with href links ends with word google
+		eg: $('p:has(i)') represents whether p tag has i tag or not
+
+		<div class="clist">
+		    <div>1</div>
+		    <div>4</div>
+		    <div>3</div>
+		    <div>1</div>
+		    <div>4</div>
+		    <div>2</div>
+		    <div>1</div>
+		</div>
+
+		$('.clist div').sort(function(a,b){
+		alert( $(a).text() + " : "+ $(b).text() );
+   		return $(a).text()> $(b).text(); 
+		}).appendTo('.clist');
+
+
+	 -->
+	<!-- <div class="body">
+		<p class="first">this is testing first line</p>
+		<p class="second">this is testing second line</p>
+		<div id="blue-element">click me to change color into blue</div>
+		<form action="/action_page.php">
+  		w1: <input type="text" name="w1" value = "555" class="w1"><br>
+  		w2: <input type="text" name="w2" class="w2"><br>
+  		height: <input type="text" name="height" class="height"><br>
+  		<input type="submit" value="Submit">
+</form>
+	</div>
+
+	<div>
+		<table>
+			<th>first column</th>
+			<th>second column</th>
+			<th>third column</th>
+			<tr>
+			<td>element 1-1</td>
+			<td>element 1-2</td>
+			<td>element 1-3</td></tr>
+			<tr>
+			<td>element 2-1</td>
+			<td>element 2-2</td>
+			<td>element 2-3</td></tr>
+			<tr>
+			<td>element 3-1</td>
+			<td>element 3-2</td>
+			<td>element 3-3</td></tr>
+
+		</table>
+	</div>
+ -->
+
+<!-- <section>
+    <p>Treacherous HTML ahead!</p>
+
+    <div id="make-me-blue">
+        make me blue
+    </div>
+
+    <div></div>
+
+    <div> make me blue</div>
+</section>
+
+<section>
+
+    <p>Can you make this span blue too? <span> make me blue</span></p>
+    <p>But not <span>this one!</span></p>
+
+    <div></div>
+
+    <p>Yes, I know, HTML can be mean sometimes. But it is not on purpose! 
+        <span>Or is <i>it?</i> <i>make me blue</i></span></p>
+
+    <div><div> make me blue</div></div>
+</section> -->
+<body>
+	<!-- <div class='clist'>
+	<div>6</div>
+	<div>2</div>
+	<div>7</div>
+	<div>5</div>
+	<div>9</div>
+	<div>4</div>
+	<div>8</div>
+	<div>1</div>
+	<div>3</div></div>
+
+	<ul>
+	<li>list 1 </li>
+	<li>list 2</li>
+	<li>list 3</li>
+	</ul>
+
+	<h2>hover me to change the color</h2> -->
+	<div class="container">
+		<div class="row mydiv">
+			
+			
+		</div>
+
+		<div>
+			<form id='test' enctype='multipart/form-data'>
+				<input type='text' name='testinput' id='testinput'>
+				<button type='submit' id="submit">submit</button>
+			</form>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>

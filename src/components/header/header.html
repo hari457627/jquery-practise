@@ -1,0 +1,86 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md">
+            <div class="logo">
+                <img class="care-logo" src="components/header/images/care.png">
+            </div>           
+        </div>
+        <div class="col-md">
+            <div class="tabbable-panel float-right">
+                <div class="tabbable-line">
+                    <ul class="nav nav-tabs ">
+                        <li class="active nav-links">
+                            <a href="#tab_default_1" data-toggle="tab">
+                                HOME </a>
+                        </li>
+                        <li class=" nav-links">
+                            <a href="#tab_default_2" data-toggle="tab">
+                                MESSAGES </a>
+                        </li>
+                        <li class=" nav-links">
+                            <a href="#tab_default_3" data-toggle="tab">
+                                JOBS </a>
+                        </li>
+                        <li class=" nav-links">
+                                <a href="#tab_default_3" data-toggle="tab">
+                                    PAYMENTS </a>
+                            </li>
+                        <li class=" nav-links">
+                            <button type="button" class="btn btn-sm btn-danger upgradeButton">Upgrade</button>
+                        </li>
+                        <li class=" nav-links ">
+                            <div class="btn-group">
+                                    <button type="button" class="btn dropdown-toggle logout" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img class="logout-image" src="components/header/images/ulogo.jpg"><span class="caret"></span>
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                      <button class="dropdown-item" type="button">Action</button>
+                                      <button class="dropdown-item" type="button">Another action</button>
+                                      <button class="dropdown-item" type="button">Something else here</button>
+                                    </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="caregivers">
+        <div class="row">
+            <div class="col-md-1 col-xs-12 caregivers-content">
+                <button type="button" class="btn btn-lg upgradeButton">Post a job</button>
+            </div>
+            <div class="col-md-11 col-xs-12 search-part">
+                        <div class="row">
+                            <div class="input-group col-md-9">
+                                    <div class="input-group">
+                                            <div class="input-group-prepend">
+                                            <label class="input-group-text" for="inputGroupSelect01">Find Caregiver<span class="caret"></span></label>
+                                            </div>
+                                            <select class="custom-select" id="inputGroupSelect01">
+                                            <option selected></option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                            </select>
+                                    </div>   
+                            </div>
+                            <div class="col-md-3 input-group-append" style="display:inline-flex;background-color:white; margin-left:-15px; vertical-align:middle !important">
+                                    <span for="near" style="margin-left:-7px;margin-top:7px;color:#888888">NEAR</span> 
+                                    <input type="email" class="form-control near-box" id="near"  name="email" value="02134"> 
+                                    <span class="input-group-text within-box" for="inputGroupSelect01">WITHIN<span class="caret"></span></span> 
+                                    <select class="custom-select distance-select" id="inputGroupSelect01">
+                                            <option selected>10 miles</option>
+                                            <option value="1">20 miles</option>
+                                            <option value="2">30 miles</option>
+                                            <option value="3">40 miles</option>
+                                            </select>   
+                                            <div class="input-group-addon search-icon">
+                                                <img style="height:30px; width:30px; margin-top:5px;" src="components/header/images/search.png">
+                                            </div>        
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+</div>    

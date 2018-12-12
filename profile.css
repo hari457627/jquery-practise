@@ -1,0 +1,156 @@
+.profile-section{
+    width: 85%;
+    min-height: 57px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-top: 100px;
+    font-size: 17px;
+    
+}
+
+.profile-links{
+    margin-top: 1%;
+    height: auto;
+}
+
+.list-image{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.profile-checks .upgrade{
+    margin-top: 0;
+    margin-left: 15px;
+    width: 122px;
+    height: 30px;
+}
+
+.profile-info{
+    margin-top: 30px;
+    height: 290px;
+}
+
+.profile-carousel{
+    padding: 0 !important;
+    height: 290px;
+    border-radius: 7px;
+    width: 290px;
+    cursor: pointer;
+}
+
+.carousel{
+    margin-left: 0 !important;
+}
+
+.carousel-control{
+    opacity: 0;
+}
+
+.carousel-control:hover{
+    opacity: 0;
+}
+
+.carousel-indicators li{
+    background-color: rgb(183, 169, 126);
+    border: rgb(183, 169, 126);
+    margin-bottom: -20px !important;
+}
+
+
+
+.member-name{
+    font-size: 26px;
+}
+
+.member-name .upgrade{
+    margin-top: 0 !important;
+    border-radius: 5px;
+    margin-left: 20px;
+    height: 20px;
+    background-color: rgb(236,236,236);
+    color: rgb(142,142,142);
+}
+
+.checked{
+    color: rgb(251,76,76);
+}
+
+.profile-content{
+    font-size: 17px;
+    margin-top: 8px;
+    color: rgb(101, 101, 101);
+}
+
+hr{
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.profile-data .btn-primary{
+    width: 122px;
+    height: 30px;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.profile-desc{
+    margin-top: 30px;
+}
+
+.desc-list-image{
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+}
+
+.profile-desc-list{
+    padding-top: 17px;
+}
+
+.modal-dialog{
+    width: 100%;
+}
+
+.modal-content{
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow:none;
+}
+
+.modal-header{
+    border: none;
+}
+
+.modal-content .carousel{
+    height: 80%;
+}
+
+.carousel-inner{
+    margin: auto;
+    height: 420px;
+    width: 420px;
+}
+
+.carousal-control{
+    opacity: 1 !important;
+    text-shadow: none !important;
+    background-color: none !important;
+}
+
+.carousal-control.left{
+    opacity: 0 !important;
+    text-shadow: none !important;
+    background-color: none !important;
+    background-image: none !important;
+    background-repeat: no-repeat !important;
+}
+
+.carousal-control.right{
+    opacity: 0 !important;
+    text-shadow: none !important;
+    background-color: none !important;
+    background-image: none !important;
+    background-repeat: no-repeat !important;
+}
+
